@@ -1,0 +1,12 @@
+#This is what the message says when you type the command!
+
+Teamspeak: '&7Our &a&lTEAMSPEAK &7is &ats.sample.net'
+Website: '&7Our &a&lWEBSITE &7is &asample.net'
+Discord: '&7Our &a&lDISCORD &7is &adiscord.com'
+
+#This is to disable a command and enable it!
+#Just put true for enabled And false for disabled!
+
+Teamspeak_command: 'true'
+Website_command: 'true'
+Discord_command: 'true'

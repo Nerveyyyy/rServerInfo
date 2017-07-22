@@ -1,0 +1,12 @@
+name: rServerInfo
+main: net.rdevs.plugins.rserverinfo.RServerInfo
+version: 1.0
+commands:
+  teamspeak:
+    description: You can see the teamspeak ip!
+    aliases: [ts, ts3, ts2]
+  website:
+    description: You can see the website address!
+    aliases: [web, site]
+  discord:
+    description: You can see the discord invite code!
