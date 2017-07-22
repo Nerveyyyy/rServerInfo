@@ -2,7 +2,9 @@
 
 Teamspeak: '&7Our &a&lTEAMSPEAK &7is &ats.sample.net'
 Website: '&7Our &a&lWEBSITE &7is &asample.net'
-Discord: '&7Our &a&lDISCORD &7is &adiscord.com'
+Discord: '&7Our &a&lDISCORD &7is &adiscord.com/sample'
+Twitter: '&7Our &a&lTWITTER &7is &atwitter.com/sample'
+Forums: '&7Our &a&lFORUMS &7is &asample.net/forums'
 
 #This is to disable a command and enable it!
 #Just put true for enabled And false for disabled!
@@ -10,3 +12,5 @@ Discord: '&7Our &a&lDISCORD &7is &adiscord.com'
 Teamspeak_command: 'true'
 Website_command: 'true'
 Discord_command: 'true'
+Twitter_command: 'true'
+Forums_command: 'true'

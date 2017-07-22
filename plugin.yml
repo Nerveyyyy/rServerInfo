@@ -10,3 +10,10 @@ commands:
     aliases: [web, site]
   discord:
     description: You can see the discord invite code!
+  twitter:
+    description: You can see the servers twitter!
+  forums:
+    description: You can see the servers forums!
+    aliases: [forum, fourms]
+  rserverinfo:
+    description: You can view plugin information and  reload the config file for this plugin.
