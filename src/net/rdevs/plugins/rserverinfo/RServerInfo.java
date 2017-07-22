@@ -2,6 +2,7 @@ package net.rdevs.plugins.rserverinfo;
 
 import java.io.File;
 
+import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.FileConfigurationOptions;
 import org.bukkit.event.Listener;
@@ -17,13 +18,14 @@ public class RServerInfo extends JavaPlugin implements Listener {
 	public static File conf;
 	
 	public void onEnable() {
-	System.out.println("§7§lWe successfully Enabled rTeamspeak! §c§lENJOY THE PLUGIN!");
+	System.out.println(CoreConfiguration.GREEN + "§l" + CoreConfiguration.PLUGIN_NAME  + CoreConfiguration.PLUGIN_VERSION + ' ' + CoreConfiguration.DARK_GRAY + "»" + ' ' + CoreConfiguration.GRAY + "This " + CoreConfiguration.GREEN + "§lPLUGIN " + CoreConfiguration.GRAY + "has been " + CoreConfiguration.GREEN + "§lENABLED" + CoreConfiguration.GRAY + '!');
 		
 	this.registerCommands();
 	
 	config = getConfig();
 	config.options().copyDefaults(true);
 	conf = new File(getDataFolder(), "config.yml");
+	saveDefaultConfig();
 	saveConfig();
 	saveDefaultConfig();
 	}
@@ -39,7 +41,7 @@ public class RServerInfo extends JavaPlugin implements Listener {
     	return getConfig().options();
     }
     public void onDisable() {
-    	System.out.println("§7§lWe successfully Disabled rTeamspeak! §c§lSEE YOU SOON!!");
+    	System.out.println(CoreConfiguration.GREEN + "§l" + CoreConfiguration.PLUGIN_NAME  + CoreConfiguration.PLUGIN_VERSION + ' ' + CoreConfiguration.DARK_GRAY + "»" + ' ' + CoreConfiguration.GRAY + "This " + CoreConfiguration.GREEN + "§lPLUGIN " + CoreConfiguration.GRAY + "has been " + CoreConfiguration.GREEN + "§lDISABLED" + CoreConfiguration.GRAY + '!');
     }
     	
 }

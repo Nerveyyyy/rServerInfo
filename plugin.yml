@@ -1,6 +1,6 @@
 name: rServerInfo
 main: net.rdevs.plugins.rserverinfo.RServerInfo
-version: 1.0
+version: 1.1
 commands:
   teamspeak:
     description: You can see the teamspeak ip!
